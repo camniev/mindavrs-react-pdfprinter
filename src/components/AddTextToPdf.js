@@ -22,9 +22,18 @@ export const addTextToPdf = async (formUrl, formData) => {
 
     // Define the text positions and content
     const textSpecs = [
-      { text: formData.name, x: 100, y: 750, size: 12 },
-      { text: formData.date, x: 100, y: 730, size: 12 },
-      { text: formData.eventName, x: 200, y: 710, size: 12 },
+      { text: formData.name, x: 408, y: 634, size: 11 },
+      { text: formData.date, x: 115, y: 664, size: 11 },
+      { text: formData.time, x: 115, y: 664, size: 11 },
+      { text: formData.eventName, x: 115, y: 695, size: 11 },
+      { text: formData.noOfPax, x: 115, y: 695, size: 11 },
+      { text: formData.location, x: 115, y: 695, size: 11 },
+      { text: formData.roomType, x: 115, y: 695, size: 11 },
+      { text: formData.seatingArrangement, x: 115, y: 695, size: 11 },
+      { text: formData.stagingNeeds, x: 115, y: 695, size: 11 },
+      { text: formData.foodArrangement, x: 115, y: 695, size: 11 },
+      { text: formData.remarks, x: 115, y: 695, size: 11 },
+      { text: formData.utility, x: 115, y: 695, size: 11 },
       // Add more text specifications as needed
     ];
 

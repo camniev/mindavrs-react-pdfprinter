@@ -6,8 +6,17 @@ const PdfForm = () => {
 
   const formData = {
     name: 'John Doe',
-    date: '2024-06-20',
+    date: 'June 20, 2024',
+    time: '1:00 - 5:00 p.m.',
     eventName: 'Cameron\'s 18th Birthday',
+    noOfPax: '200',
+    location: 'BIMP-EAGA Conference Hall (14th Floor)',
+    roomType: 'BIMP-EAGA Conference Hall (14th Floor)',
+    seatingArrangement: 'Herringbone',
+    stagingNeeds: 'Theatre',
+    foodArrangement: 'Buffet Service',
+    remarks: 'Provider will be Waling Waling Acacia',
+    utility: 'Amy, Jhong',
     // Add more fields as needed
   };
 
